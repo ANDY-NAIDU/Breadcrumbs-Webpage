@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "name": "Discrete Mathematics",
+      "children": [
+        {
+          "name": "Group Theory",
+          "children": []
+        },
+        {
+          "name": "Set Theory",
+          "children": []
+        },
+        {
+          "name": "Graph Theory",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "children": [
+        {
+          "name": "Probability",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

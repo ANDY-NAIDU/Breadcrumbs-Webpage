@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Data</title>
+    <style>
+      body{
+        margin: 20px;
+        font-size: 20px;
+      }
+    </style>
+</head>
+<body>
+    
+    <div id="data"></div>
+
+    <script>
+        fetch('/random-data')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('data').textContent = data.path;
+            })
+            .catch(error => {
+                document.getElementById('data').textContent = 'No data available';
+            });
+    </script>
+</body>
+</html>
